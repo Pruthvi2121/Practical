@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<web-app>
+<servlet>
+<servlet-name>Welcom</servlet-name>
+<servlet-class>Welcom</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Welcom</servlet-name>
+    <url-pattern>/Welcom</url-pattern>
+</servlet-mapping>
+
+<welcom-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+
+</welcom-file-list>
+</web-app>
